@@ -2,3 +2,5 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
+gem "html-proofer", "~> 5.0", group: :test
+gem "rake", group: :test
