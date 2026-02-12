@@ -6,7 +6,9 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: pages-themes/primer@v0.6.0
+plugins:
+  - jekyll-remote-theme
 
 # Exclude from processing
 exclude:
